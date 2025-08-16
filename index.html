@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kieren Adkins</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    
+    <!-- LEFT: Profile -->
+    <aside class="left">
+      <div class="profile">
+        <img src="Kieren.Adkins.jpeg" alt="Brittany Chiang" class="profile-photo" />
+        <h1>Kieren Adkins</h1>
+        <h3>.NET Backend Developer</h3>
+        <p class="tagline">Passionate .NET Developer with a strong focus on agile and full-stack solutions.</p>
+      </div>
+
+      <nav class="nav-links">
+        <a href="#about" class="active">ABOUT</a>
+        <a href="#skills">Technical Skills</a>
+        <a href="#experience">EXPERIENCE</a>
+        <a href="#projects">PROJECTS</a>
+      </nav>
+
+      <div class="social-icons">
+        <a href="https://github.com/kierenadkins"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/kieren-adkins-72946a209/"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:kierenadkins2008@hotmail.com?subject=Portfolio Inquiry"><i class="fas fa-envelope"></i></a>
+        <a href="Kieren Adkins Cv.docx" target="_blank" style="text-decoration:none; display:flex; align-items:center;"><i class="fas fa-file-alt"></i></a>
+      </div>
+
+      <div class="cv">
+         <a href="Kieren Adkins Cv.docx" download class="download-cv">Download My CV</a>
+      </div>
+    </aside>
+
+    <!-- RIGHT: Scrollable content -->
+    <div class="right">
+      <div class="content-wrapper">
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+              <p>
+                I am <strong>Kieren Adkins</strong>, a <strong>first-class Computer Science graduate</strong> and Junior Software Developer. I am passionate about creating scalable, efficient, and maintainable software solutions, with a strong focus on <strong>C#/.NET</strong>, <strong>cloud technologies</strong>, and <strong>Agile development</strong>.
+              </p>
+              <p>
+                I have contributed to projects for leading brands such as <strong>Ben Sherman, Yours Clothing, and Moss Bros</strong>, working on <strong>.NET Core</strong> applications, <strong>microservices architecture</strong>, and hybrid cloud platforms. My experience includes Clean Architecture, Test-Driven Development (TDD), and Object-Oriented Programming (OOP).
+              </p>
+              <p>
+                Beyond coding, I thrive in collaborative environments, leveraging strong <strong>communication</strong> and <strong>problem-solving</strong> skills. I am constantly exploring new technologies to deliver meaningful solutions that create a tangible impact.
+              </p>
+            </div>
+          </section>
+          
+          
+          
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="skills-row">
+              <!-- Backend -->
+              <div class="skill-card" onclick="toggleSkill(this)">
+                <h3>Backend</h3>
+                <div class="skill-details">
+                  <ul class="skills-list">
+                    <li><i class="fab fa-microsoft"></i> C#, .NET Core, .NET Framework</li>
+                    <li><i class="fas fa-project-diagram"></i> Microservices & APIs REST Swagger/OpenAPI</li>
+                    <li><i class="fas fa-database"></i> SQL Server, Dapper, Entity Framework Core/ NoSQL Cosmos</li>
+                    <li><i class="fas fa-cubes"></i> Clean Architecture, Domain-Driven Design (DDD)</li>
+                    <li><i class="fas fa-lock"></i> Authentication & Authorization JWT, OAuth2</li>
+                    <li><i class="fab fa-microsoft"></i> Cloud & Deployment Azure, CI/CD</li>
+                    <li><i class="fas fa-tachometer-alt"></i> Performance Optimization & Caching</li>
+                    <li><i class="fas fa-vial"></i> Unit & Integration Testing Moq</li>
+                  </ul>
+                  
+                </div>
+              </div>
+          
+              <!-- Frontend -->
+              <div class="skill-card" onclick="toggleSkill(this)">
+                <h3>Frontend</h3>
+                <div class="skill-details">
+                  <ul class="skills-list">
+                    <li><i class="fab fa-html5"></i> HTML5 / XHTML</li>
+                    <li><i class="fab fa-css3-alt"></i> CSS3 (Flexbox, Grid)</li>
+                    <li><i class="fab fa-js-square"></i> JavaScript & jQuery</li>
+                    <li><i class="fas fa-laptop-code"></i> Blazor (C#)</li>
+                    <li><i class="fas fa-mobile-alt"></i> Responsive Design principles</li>
+                    <li><i class="fas fa-pencil-ruler"></i> Wireframing & Prototyping (Figma/Adobe XD)</li>
+                  </ul>
+                </div>
+              </div>
+          
+              <!-- Tools & Cloud -->
+              <div class="skill-card" onclick="toggleSkill(this)">
+                <h3>Tools & Cloud</h3>
+                <div class="skill-details">
+                  <ul class="skills-list">
+                    <li><i class="fab fa-microsoft"></i> Microsoft Azure (App Services, Functions, Cosmos DB)</li>
+                    <li><i class="fab fa-git-alt"></i> Git, GitHub, GitLab</li>
+                    <li><i class="fab fa-jira"></i> Jira & Agile Tools</li>
+                    <li><i class="fab fa-confluence"></i> Documentation</li>
+                    <li><i class="fab fa-slack"></i> Slack & Team Collaboration</li>
+                    <li><i class="fas fa-cogs"></i> CI/CD (GitHub Actions, Azure DevOps, Jenkins)</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+          
+
+
+        <section id="experience">
+            <h2>Experience</h2>
+          
+            <div class="job">
+              <h3>Junior Software Developer | Remarkable Commerce</h3>
+              <span class="date-location">Jun 2024 – Present · Nottingham, England · Hybrid</span>
+              <ul>
+                <li>Collaborated with leading retail brands such as Ben Sherman, Yours Clothing, and Moss Bros to deliver cutting-edge software solutions.</li>
+                <li>Contributed to the development of a cloud commerce platform using <strong>.NET Core</strong> and <strong>microservices</strong>.</li>
+                <li>Worked extensively with <strong>C# .NET</strong>, <strong>Microsoft SQL Server</strong>, XHTML, CSS, JQuery, and Microsoft Visual Studio.</li>
+                <li>Leveraged <strong>Dapper</strong> and <strong>Entity Framework</strong> for efficient database access and management.</li>
+                <li>Explored new technologies and implemented innovative approaches to improve system performance and maintainability.</li>
+              </ul>
+            </div>
+          
+            <div class="job">
+              <h3>Placement/Trainee Developer | Next PLC</h3>
+              <span class="date-location">Jul 2022 – Nov 2023 · Remote/South Elmsall, England</span>
+              <ul>
+                <li>Developed C#/.NET Framework solutions following <strong>Clean Architecture</strong> principles for maintainable and scalable systems.</li>
+                <li>Implemented <strong>Test-Driven Development (TDD)</strong> with tools like Stryker, ensuring robust, bug-free code.</li>
+                <li>Integrated RESTful APIs and microservices, leveraging Azure Service Bus for reliable communication and cloud scalability.</li>
+                <li>Gained hands-on experience with <strong>Blazor</strong> and Azure technologies in cloud-based projects.</li>
+                <li>Improved team communication and workflow efficiency within Agile development environments.</li>
+              </ul>
+            </div>
+          </section>
+          
+
+          <section id="projects">
+            <h2>Projects</h2>
+            <p>Here’s a selection of my recent work — a mix of personal projects, client work, and collaborations.</p>
+          
+            <div class="projects-grid">
+              <!-- Project Card -->
+              <div class="project-card">
+                <a href="https://chatgpt.com/c/68a075a5-5b20-8322-8cc2-4f1ec7fe9b08">
+                  <img src="img/Portfilio.png" alt="Portfolio Website Template" class="project-image">
+                  <h3>Portfolio Website Template</h3>
+                  <p>A responsive portfolio built with HTML, CSS, and JavaScript to showcase projects and skills</p>
+                  <div class="tech-stack">
+                    <i class="fab fa-html5" title="HTML5"></i>
+                    <i class="fab fa-css3-alt" title="CSS3"></i>
+                    <i class="fab fa-js" title="JavaScript"></i>
+                  </div>
+                </a>
+              </div>
+              
+          
+              <div class="project-card">
+                <img src="accessibility-toolkit.png" alt="Accessibility Toolkit" class="project-image">
+                <h3>XLN-Troubleshooting-Application</h3>
+                <p>A diagnostic web app for XLN systems to detect, analyze, and resolve issues.</p>
+                <div class="tech-stack">
+                  <i class="fab fa-js-square" title="JavaScript"></i>
+                  <i class="fab fa-node-js" title="Node.js"></i>
+                </div>
+              </div>
+
+              <div class="project-card">
+                <img src="shuFood.jpg" alt="SHU Food Rescue App" class="project-image">
+                <h3>SHU Food Rescue</h3>
+                <p>A mobile app for Sheffield Hallam students to share unwanted food, claim surplus items, reduce waste, and foster a stronger campus community.</p>
+                <div class="tech-stack">
+                  <!-- Main stack -->
+                  <i class="fab fa-js-square" title="JavaScript"></i>
+                  <i class="fab fa-react" title="React Native"></i>
+                  <i class="fas fa-database" title="Firebase"></i>
+                  <!-- Tools -->
+                  <i class="fas fa-cogs" title="Expo"></i>
+                  <i class="fab fa-npm" title="npm"></i>
+                </div>
+              </div>
+
+              <div class="project-card">
+                <img src="img/Prototype.jpg" alt="SHU Food Rescue App" class="project-image">
+                <h3>Prototype visa application system</h3>
+                <p>A conceptual prototype, presenting system architecture, data flows, and UI mockups to demonstrate design thinking and technical planning skills. Diagrams created using PlantUML, C#, and draw.io.</p>
+                <div class="tech-stack">
+                </div>
+              </div>
+            
+            </div>
+          </section>
+          
+          
+            
+            <footer class="footer">
+                <p>© 2025 Your Name. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="https://github.com/kierenadkins"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/kieren-adkins-72946a209/"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:kierenadkins2008@hotmail.com?subject=Portfolio Inquiry"><i class="fas fa-envelope"></i></a>
+                    <a href="Kieren Adkins Cv.docx" target="_blank" style="text-decoration:none; display:flex; align-items:center;"><i class="fas fa-file-alt"></i></a>
+                </div>
+            </footer>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
