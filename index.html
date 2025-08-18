@@ -10,7 +10,6 @@
 <body>
   <div class="container">
     
-    <!-- LEFT: Profile -->
     <aside class="left">
       <div class="profile">
         <img src="Kieren.Adkins.jpeg" alt="Brittany Chiang" class="profile-photo" />
@@ -38,7 +37,6 @@
       </div>
     </aside>
 
-    <!-- RIGHT: Scrollable content -->
     <div class="right">
       <div class="content-wrapper">
         <section id="about">
@@ -56,13 +54,9 @@
             </div>
           </section>
           
-          
-          
-
         <section id="skills">
             <h2>Technical Skills</h2>
             <div class="skills-row">
-              <!-- Backend -->
               <div class="skill-card" onclick="toggleSkill(this)">
                 <h3>Backend</h3>
                 <div class="skill-details">
@@ -80,7 +74,6 @@
                 </div>
               </div>
           
-              <!-- Frontend -->
               <div class="skill-card" onclick="toggleSkill(this)">
                 <h3>Frontend</h3>
                 <div class="skill-details">
@@ -95,7 +88,6 @@
                 </div>
               </div>
           
-              <!-- Tools & Cloud -->
               <div class="skill-card" onclick="toggleSkill(this)">
                 <h3>Tools & Cloud</h3>
                 <div class="skill-details">
@@ -110,31 +102,25 @@
                 </div>
               </div>
             </div>
-          </section>
-          
-          
-
+        </section>
 
         <section id="experience">
             <h2>Experience</h2>
-          
             <div class="job">
               <h3>Junior Software Developer | Remarkable Commerce</h3>
               <span class="date-location">Jun 2024 – Present · Nottingham, England · Hybrid</span>
               <ul>
-                <li>Collaborated with leading retail brands such as Ben Sherman, Yours Clothing, and Moss Bros to deliver cutting-edge software solutions.</li>
+                <li>Collaborated with leading retail brands such as Yours Clothing, and Evans to deliver cutting-edge software solutions.</li>
                 <li>Contributed to the development of a cloud commerce platform using <strong>.NET Core</strong> and <strong>microservices</strong>.</li>
                 <li>Worked extensively with <strong>C# .NET</strong>, <strong>Microsoft SQL Server</strong>, XHTML, CSS, JQuery, and Microsoft Visual Studio.</li>
                 <li>Leveraged <strong>Dapper</strong> and <strong>Entity Framework</strong> for efficient database access and management.</li>
-                <li>Explored new technologies and implemented innovative approaches to improve system performance and maintainability.</li>
               </ul>
             </div>
-          
             <div class="job">
               <h3>Placement/Trainee Developer | Next PLC</h3>
               <span class="date-location">Jul 2022 – Nov 2023 · Remote/South Elmsall, England</span>
               <ul>
-                <li>Developed C#/.NET Framework solutions following <strong>Clean Architecture</strong> principles for maintainable and scalable systems.</li>
+                <li>Developed C#/.NET Framework solutions following <strong>Clean Architecture</strong> principles for maintainable and scalable warehouse systems.</li>
                 <li>Implemented <strong>Test-Driven Development (TDD)</strong> with tools like Stryker, ensuring robust, bug-free code.</li>
                 <li>Integrated RESTful APIs and microservices, leveraging Azure Service Bus for reliable communication and cloud scalability.</li>
                 <li>Gained hands-on experience with <strong>Blazor</strong> and Azure technologies in cloud-based projects.</li>
@@ -142,14 +128,10 @@
               </ul>
             </div>
           </section>
-          
-
           <section id="projects">
             <h2>Projects</h2>
             <p>Here’s a selection of my recent work — a mix of personal projects, client work, and collaborations.</p>
-          
             <div class="projects-grid">
-              <!-- Project Card -->
               <div class="project-card">
                 <a href="https://kierenadkins.github.io/">
                   <img src="img/Portfilio.png" alt="Portfolio Website Template" class="project-image">
@@ -162,33 +144,29 @@
                   </div>
                 </a>
               </div>
-              
-          
               <div class="project-card">
-                <img src="accessibility-toolkit.png" alt="Accessibility Toolkit" class="project-image">
-                <h3>XLN-Troubleshooting-Application</h3>
-                <p>A diagnostic web app for XLN systems to detect, analyze, and resolve issues.</p>
+                <img src="" alt="Work In Progress" class="project-image">
+                <h3>ClearBudget</h3>
+                <p>ClearBudget replaces cluttered Excel sheets with a clean dashboard that tracks income, expenses, and savings in categories and subcategories, with instant summaries and charts for clear financial insight.</p>
                 <div class="tech-stack">
-                  <i class="fab fa-js-square" title="JavaScript"></i>
-                  <i class="fab fa-node-js" title="Node.js"></i>
+                  <i class="fas fa-fire" title="Blazor"></i>
+                  <i class="fas fa-code" title="C#"></i>
+                  <i class="fas fa-database" title="SQL Server"></i>
                 </div>
+                
               </div>
-
               <div class="project-card">
                 <img src="shuFood.jpg" alt="SHU Food Rescue App" class="project-image">
                 <h3>SHU Food Rescue</h3>
                 <p>A mobile app for Sheffield Hallam students to share unwanted food, claim surplus items, reduce waste, and foster a stronger campus community.</p>
                 <div class="tech-stack">
-                  <!-- Main stack -->
                   <i class="fab fa-js-square" title="JavaScript"></i>
                   <i class="fab fa-react" title="React Native"></i>
                   <i class="fas fa-database" title="Firebase"></i>
-                  <!-- Tools -->
                   <i class="fas fa-cogs" title="Expo"></i>
                   <i class="fab fa-npm" title="npm"></i>
                 </div>
               </div>
-
               <div class="project-card">
                 <img src="img/Prototype.jpg" alt="SHU Food Rescue App" class="project-image">
                 <h3>Prototype visa application system</h3>
@@ -196,21 +174,18 @@
                 <div class="tech-stack">
                 </div>
               </div>
-            
             </div>
           </section>
           
-          
-            
-            <footer class="footer">
-                <p>© 2025 Your Name. All rights reserved.</p>
-                <div class="footer-social">
-                    <a href="https://github.com/kierenadkins"><i class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/kieren-adkins-72946a209/"><i class="fab fa-linkedin"></i></a>
-                    <a href="mailto:kierenadkins2008@hotmail.com?subject=Portfolio Inquiry"><i class="fas fa-envelope"></i></a>
-                    <a href="Kieren Adkins Cv.docx" target="_blank" style="text-decoration:none; display:flex; align-items:center;"><i class="fas fa-file-alt"></i></a>
-                </div>
-            </footer>
+          <footer class="footer">
+            <p>© 2025</p>
+            <div class="footer-social">
+                <a href="https://github.com/kierenadkins"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/kieren-adkins-72946a209/"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:kierenadkins2008@hotmail.com?subject=Portfolio Inquiry"><i class="fas fa-envelope"></i></a>
+                <a href="Kieren Adkins Cv.docx" target="_blank" style="text-decoration:none; display:flex; align-items:center;"><i class="fas fa-file-alt"></i></a>
+            </div>
+        </footer>
       </div>
     </div>
   </div>
